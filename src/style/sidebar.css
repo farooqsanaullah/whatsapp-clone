@@ -43,6 +43,7 @@
 .sidebar_search_container > input
 {
     border: none;
+    /* width: 100%; */
     margin-left: 10px;
 }
 .sidebar_search_container > .MuiSvgIcon-root
@@ -67,6 +68,6 @@
 {
     .sidebar
     {
-    flex: 1;
+    flex: 1 !important;
     }
 }
